@@ -4,3 +4,67 @@ export const navLinks = [
     {id: 'art' , title: 'The Art'},
     {id: 'contact' , title: 'Contact'}
 ]
+
+
+export const cocktailLists = [
+    {
+     name:'Chapel Hill Shiraz',
+     country:'AU',
+     price:'$10',
+     detail:'Bottle'
+    },
+
+     {
+     name:'Caten Malbee',
+     country:'AU',
+     price:'$49',
+     detail:'Bottle'
+    },
+
+     {
+     name:'Rhino Pale Ale',
+     country:'CA',
+     price:'$20',
+     detail:'750ml'
+    },
+
+     {
+     name:'Irish Guinness',
+     country:'IE',
+     price:'$29',
+     detail:'600ml'
+    },
+    
+]
+
+export const mocktailLists = [
+
+     {
+     name:'Tropical Bloom',
+     country:'US',
+     price:'$10',
+     detail:'Bottle'
+    },
+
+
+
+     {name:'Passionfruit Mint',
+     country:'US',
+     price:'$49',
+     detail:'Bottle'
+    },
+
+     {
+     name:'Citrus Glow',
+     country:'CA',
+     price:'$20',
+     detail:'750ml'
+    },
+
+     {
+     name:'Lavender Fizz',
+     country:'IE',
+     price:'$29',
+     detail:'600ml'
+    },
+]
