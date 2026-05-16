@@ -7,7 +7,8 @@ import { useGSAP } from '@gsap/react'
 const Cocktails = () => {
 
 
-const parallaxTimeline = gsap.timeline({
+useGSAP(() => {
+    const parallaxTimeline = gsap.timeline({
     scrollTrigger: {
         trigger:'#cocktails',
         start:'top 30%',
@@ -22,8 +23,9 @@ parallaxTimeline
     })
 
  .from('#c-right-leaf',{
-        x:100 , y:-100
+        x:100 , y:100
     })
+})
 //  const sectionRef = useRef(null)
   
     
@@ -47,7 +49,7 @@ parallaxTimeline
   return (
     <section id='cocktails' className='noisy'>
       <img src="/images/cocktail-left-leaf.png" alt='l-leaf' id='c-left-leaf' ></img>
-      <img src="/images/cocktail-right-leaf.png" alt='r-leaf' id='c-right-leaf' ></img>
+      <img src="/images/cocktail-right-leaf.png" alt='r-leaf' id='c-right-leaf'></img>
       <div className='list'>
         <div className='popular'>
             <h2>Most Popular Cocktails:</h2>
