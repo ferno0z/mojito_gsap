@@ -68,3 +68,20 @@ export const mocktailLists = [
      detail:'600ml'
     },
 ]
+
+
+
+export const goodLists = [
+    "Handpick Ingredients",
+    "Signature Techniques",
+    "Bartending artistery in action",
+    "Freshly muddled flavours"
+]
+
+
+export const featureLists = [
+ "Perfectly balanced blends",
+ "Garnished to perfection",
+ "Ice-cold every time",
+ "Expertly shaken & stirred",
+];
